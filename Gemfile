@@ -17,7 +17,7 @@ gem 'dm-core', DM_VERSION,
   :branch => CURRENT_BRANCH
 
 gem 'fastercsv',  '~> 1.5.4'
-gem 'multi_json', '~> 1.3.2'
+gem 'multi_json'
 
 group :development do
   gem 'dm-validations', DM_VERSION,
