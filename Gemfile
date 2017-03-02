@@ -18,8 +18,6 @@ gem 'dm-core', DM_VERSION,
 
 gem 'fastercsv',  '~> 1.5.4'
 gem 'multi_json', '~> 1.3.2'
-gem 'json',       '~> 1.5.4', :platforms => [ :ruby_18, :jruby ]
-gem 'json_pure',  '~> 1.5.4', :platforms => [ :mswin ]
 
 group :development do
   gem 'dm-validations', DM_VERSION,
